@@ -9,8 +9,7 @@ In this article
 1. Get the sample repository
 2. Deploy your application code to Azure
 3. Update and redeploy the app
-4. Manage your new Azure app
-5. Clean up resources
+4. Clean up resources
 
 ### Deploy your application code to Azure
 
@@ -49,7 +48,14 @@ Congratulations! You've deployed your first PHP app to App Service using the Azu
 
 ![hellowold](https://user-images.githubusercontent.com/113396468/214768048-71b5b129-f202-418b-b92a-91f953baee23.png)
 
-# Clean up resources
+### Update and redeploy the app
+
+1. Edit index.php so that it shows "Hello Azure!" instead of "Hello World!"
+2. Enter a commit message such as `Hello Azure`. Then, select Commit and Push.
+3. Once deployment has completed, return to the browser window that opened during the Browse to the app step, and refresh the page.
+
+
+### Clean up resources
 
 `
   az group delete --name myResourceGroup
