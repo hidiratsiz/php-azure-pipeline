@@ -68,4 +68,4 @@ stages:
             inputs:
               azureSubscription: $(azureSubscription)
               appName: $(webAppName)
-              package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
+              package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip 
