@@ -48,3 +48,8 @@ The PHP sample code is running in an Azure App Service
 Congratulations! You've deployed your first PHP app to App Service using the Azure portal.
 
 ![hellowold](https://user-images.githubusercontent.com/113396468/214768048-71b5b129-f202-418b-b92a-91f953baee23.png)
+
+# Clean up resources
+`
+az group delete --name myResourceGroup
+`
