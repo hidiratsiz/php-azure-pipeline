@@ -52,6 +52,5 @@ Congratulations! You've deployed your first PHP app to App Service using the Azu
 # Clean up resources
 
 `
-az group delete --name myResourceGroup
-
+  az group delete --name myResourceGroup
 `
